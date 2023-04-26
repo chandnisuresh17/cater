@@ -1,41 +1,40 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
   "user": [
     {
       "id": 1,
-      "userName": "chandni",
-      "service": "catering "
+      "userName": "admin123",
+      "role": "admin",
+      "service": null
     },
     {
       "id": 2,
-      "userName": "Dona",
-      "service": "music "
+      "userName": "vendor-alan",
+      "role": "vendor",
+      "service": "Music"
     },
     {
       "id": 3,
-      "userName": "Thomas",
-      "service": " instruments"
+      "userName": "vendor-Dona",
+      "role": "vendor",
+      "service": "Dessert"
     },
     {
       "id": 4,
-      "userName": "Sagar",
-      "service": null 
-    }],
-    "Event":[
-      {
-        "user":5,
-        "vendor":[1,4],
-        "Description":"text here"
-      }
-
-    ],
-  "profile": {
-    "name": "typicode"
-  }
+      "userName": "vendor-sagar",
+      "role": "vendor",
+      "service": "carnival"
+    },
+    {
+      "id": 5,
+      "userName": "user123",
+      "role": "user",
+      "service": null
+    }
+  ],
+  "Event": [
+    [
+      "vendor-alan",
+      "vendor-Dona"
+    ]
+  ]
 }
