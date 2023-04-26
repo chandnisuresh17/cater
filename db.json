@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "userName": "chandni",
+      "service": "catering "
+    },
+    {
+      "id": 2,
+      "userName": "Dona",
+      "service": "music "
+    },
+    {
+      "id": 3,
+      "userName": "Thomas",
+      "service": " instruments"
+    },
+    {
+      "id": 4,
+      "userName": "Sagar",
+      "service": null 
+    }],
+    "Event":[
+      {
+        "user":5,
+        "vendor":[1,4],
+        "Description":"text here"
+      }
+
+    ],
+  "profile": {
+    "name": "typicode"
+  }
+}
